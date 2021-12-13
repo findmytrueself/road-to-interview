@@ -20,7 +20,7 @@ module.exports = {
       subject: "Road To Interview 회원가입 인증", // 제목
       html:
         "<p>아래의 링크를 클릭해주세요 !</p>" +
-        "<a href='https://sjitygfree.ga/auth?email=" +
+        "<a href='https://roadtointerview.shop/auth?email=" +
         email +
         "&token=" +
         salt +
