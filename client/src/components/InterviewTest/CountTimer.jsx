@@ -55,10 +55,6 @@ const CountTimer = ({ currentQuestion, isPlay }) => {
   useEffect(() => {
     setPercentage((counts / answerCount) * 100);
   }, [answerCount, counts]);
-  useEffect(() => {
-    if (isPlay) {
-    }
-  }, [isPlay]);
 
   useEffect(() => {
     if (isPlay) {
